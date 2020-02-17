@@ -32,4 +32,4 @@ What it does:
      attach 1             -- attach to the first (this should be the part you are debugging if using a BluePill, you may need to change if you're doing something fancier)
 
 # IMPORTANT - TO START DEBUGGING SESSION
-To start the debugging session of a arm binary, you must select "Run" -> "Debug Configurations....", select the configuraton you just created, then use the "Debug" button on that page.
+To start the debugging session of a arm binary, you must select "Run" -> "Debug Configurations....", select the configuraton you just created, then use the "Debug" button on that page.  Once you have done this once, you can use the "Debug History" menu to start it again.
