@@ -20,9 +20,10 @@ The complete startup script is:
      attach 1
 
 
-![ScreenShot](Blackmagic-Startup.jpg)
+![ScreenShot](BlackMagic-Startup.jpg)
 
 What it does:
+
      set mem inaccessible-by-default off -- Don't allow access to memory mapped IO
      target extended-remote /dev/cu.usbmodemD5D6ABE31  -- Points to the correct serial device.
      monitor tpwr enable  -- by default, target power is disabled, this enables it
